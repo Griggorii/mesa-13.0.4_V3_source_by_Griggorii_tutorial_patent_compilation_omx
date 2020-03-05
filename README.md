@@ -1,7 +1,9 @@
 # mesa-13.0.4_V3_source_by_Griggorii_tutorial_patent_compilation_omx
 mesa-13.0.4 , V3 , source_by , Griggorii_tutorial , patent , compilation , omx
 
-Source https://github.com/Griggorii/mesa-13.0.4_V2_source_by_Griggorii_tutorial_patent_compilation sudo apt install libvdpau-dev
+Source https://github.com/Griggorii/mesa-13.0.4_V2_source_by_Griggorii_tutorial_patent_compilation 
+
+sudo apt update && sudo apt install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev -y && sudo apt install libvdpau-dev -y
 
 New command terminal:
 
