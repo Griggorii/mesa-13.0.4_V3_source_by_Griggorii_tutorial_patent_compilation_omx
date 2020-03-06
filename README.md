@@ -5,10 +5,12 @@ Source readme https://github.com/Griggorii/mesa-13.0.4_V2_source_by_Griggorii_tu
 
 -------------------------------------------------
 
-sudo apt update && sudo apt --reinstall install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev -y
+$ sudo apt update && sudo apt --reinstall install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev -y
 
 -------------------------------------------------------------------------
-sudo apt update && sudo apt --reinstall install libgcrypt20-dev , libxcb-dri3-dev , libxcb-present-dev , python-mako , libxshmfence-dev , libxext-dev , libxdamage-dev , libx11-xcb-dev , libxcb-glx0-dev , libxcb-dri2-0-dev , libexpat1-dev , libxxf86vm-dev , libxvmc-dev , libomxil-bellagio-dev , libva-dev , libclc-dev , libdrm-dev , libegl-dev , libegl1-mesa-dev , libgbm-dev , libgl-dev , libgl1-mesa-dev , libgles-dev , libgles2-mesa-dev , libglvnd-dev , libglx-dev , libopengl-dev , libosmesa6-dev , libpthread-stubs0-dev , libvdpau-dev , libvkd3d-dev , libvkd3d-utils1 , libvulkan-dev , libx11-dev , libxau-dev , libxcb1-dev , libxdmcp-dev , mesa-common-dev , mesa-opencl-icd , nvidia-cg-dev
+$ sudo apt update && sudo apt --reinstall install libgcrypt20-dev , libxcb-dri3-dev , libxcb-present-dev , python-mako , libxshmfence-dev , libxext-dev , libxdamage-dev , libx11-xcb-dev , libxcb-glx0-dev , libxcb-dri2-0-dev , libexpat1-dev , libxxf86vm-dev , libxvmc-dev , libomxil-bellagio-dev , libva-dev , libclc-dev , libdrm-dev , libegl-dev , libegl1-mesa-dev , libgbm-dev , libgl-dev , libgl1-mesa-dev , libgles-dev , libgles2-mesa-dev , libglvnd-dev , libglx-dev , libopengl-dev , libosmesa6-dev , libpthread-stubs0-dev , libvdpau-dev , libvkd3d-dev , libvkd3d-utils1 , libvulkan-dev , libx11-dev , libxau-dev , libxcb1-dev , libxdmcp-dev , mesa-common-dev , mesa-opencl-icd , nvidia-cg-dev
+
+$ sudo cp r300_pci_ids.h  /usr/include && sudo cp xlocale.h /usr/include
 
 New command terminal: llvm-3.8
 
