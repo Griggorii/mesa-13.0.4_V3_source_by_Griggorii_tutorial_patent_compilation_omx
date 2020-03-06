@@ -1,5 +1,7 @@
 # mesa-13.0.4_V3_source_by_Griggorii_tutorial_patent_compilation_omx , gallium , nine , pipe
 mesa-13.0.4 , V3 , source_by , Griggorii_tutorial , patent , compilation , omx , gallium , nine , pipe
+                                      
+                                          huge difficulty level!
 
 Source readme https://github.com/Griggorii/mesa-13.0.4_V2_source_by_Griggorii_tutorial_patent_compilation 
 
