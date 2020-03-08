@@ -7,13 +7,20 @@ Source readme https://github.com/Griggorii/mesa-13.0.4_V2_source_by_Griggorii_tu
 
 Download my portage tool https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7
 
-mesa-13.0.4_V3 onli support clang-3.8 google find deb package
+mesa-13.0.4_V3 onli support clang-3.8 google find deb package:
+
 clang-3.8_3.8.1-24ubuntu7_amd64.deb
+
 libclang1-3.8_3.8.1-24ubuntu7_amd64.deb
+
 libclang-common-3.8-dev_3.8.1-24ubuntu7_amd64.deb
+
 libffi6_3.2.1-9_amd64.deb
+
 libllvm3.8_3.8.1-24ubuntu7_amd64.deb
+
 llvm-3.8_3.8-2ubuntu1_amd64.deb
+
 llvm-3.8-runtime_3.8-2ubuntu1_amd64.deb
 
 -------------------------------------------------
