@@ -46,6 +46,9 @@ $ sudo apt update && sudo apt --reinstall install libomxil-bellagio-dev libwayla
 -------------------------------------------------------------------------
 $ sudo apt update && sudo apt --reinstall install libgcrypt20-dev , libxcb-dri3-dev , libxcb-present-dev , python-mako , libxshmfence-dev , libxext-dev , libxdamage-dev , libx11-xcb-dev , libxcb-glx0-dev , libxcb-dri2-0-dev , libexpat1-dev , libxxf86vm-dev , libxvmc-dev , libomxil-bellagio-dev , libva-dev , libclc-dev , libdrm-dev , libegl-dev , libegl1-mesa-dev , libgbm-dev , libgl-dev , libgl1-mesa-dev , libgles-dev , libgles2-mesa-dev , libglvnd-dev , libglx-dev , libopengl-dev , libosmesa6-dev , libpthread-stubs0-dev , libvdpau-dev , libvkd3d-dev , libvkd3d-utils1 , libvulkan-dev , libx11-dev , libxau-dev , libxcb1-dev , libxdmcp-dev , mesa-common-dev , mesa-opencl-icd , nvidia-cg-dev -y && sudo apt --reinstall install libglu1-mesa-dev liblzma-dev libunwind-dev libwayland-egl-backend-dev libxatracker-dev libxine2-bin libxine2-dev -y 
 
+----------------------------------------------------------------------------------------------------------------
+In folder mesa-13.0.4_V3_source_by_Griggorii_tutorial_patent_compilation_omx terminal run
+
 $ sudo cp r300_pci_ids.h  /usr/include && sudo cp xlocale.h /usr/include && sudo cp XvMCproto.h /usr/include/X11/extensions && sudo rm -rf /usr/include/x86_64-linux-gnu/bits/mman-linux.h && sudo cp mman-linux.h /usr/include/x86_64-linux-gnu/bits && sudo rm /usr/include/libdrm/intel_aub.h &&  sudo cp intel_aub.h /usr/include/libdrm
 
 New command terminal: llvm-3.8
