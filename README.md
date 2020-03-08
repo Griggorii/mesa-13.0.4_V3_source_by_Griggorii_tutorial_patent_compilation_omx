@@ -5,7 +5,19 @@ mesa-13.0.4 , V3 , source_by , Griggorii_tutorial , patent , compilation , omx ,
 
 Source readme https://github.com/Griggorii/mesa-13.0.4_V2_source_by_Griggorii_tutorial_patent_compilation 
 
-Download my portage tool https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7
+Download my portage tool tizonia https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7
+
+sudo rm - rf /etc/X11/xorg.conf
+
+sudo rm - rf /etc/X11/xorg.conf.failsafe
+
+sudo rm - rf /usr/share/X11/xorg.conf.d/20-nouveau.conf
+
+sudo rm - rf /usr/share/X11/xorg.conf.d/20-intel.conf
+
+sudo rm - rf /etc/X11/xorg.conf.d
+
+
 
 mesa-13.0.4_V3 onli support clang-3.8 google find deb package:
 
@@ -36,7 +48,7 @@ $ sudo apt update && sudo apt --reinstall install libomxil-bellagio-dev libwayla
 -------------------------------------------------------------------------
 $ sudo apt update && sudo apt --reinstall install libgcrypt20-dev , libxcb-dri3-dev , libxcb-present-dev , python-mako , libxshmfence-dev , libxext-dev , libxdamage-dev , libx11-xcb-dev , libxcb-glx0-dev , libxcb-dri2-0-dev , libexpat1-dev , libxxf86vm-dev , libxvmc-dev , libomxil-bellagio-dev , libva-dev , libclc-dev , libdrm-dev , libegl-dev , libegl1-mesa-dev , libgbm-dev , libgl-dev , libgl1-mesa-dev , libgles-dev , libgles2-mesa-dev , libglvnd-dev , libglx-dev , libopengl-dev , libosmesa6-dev , libpthread-stubs0-dev , libvdpau-dev , libvkd3d-dev , libvkd3d-utils1 , libvulkan-dev , libx11-dev , libxau-dev , libxcb1-dev , libxdmcp-dev , mesa-common-dev , mesa-opencl-icd , nvidia-cg-dev -y && sudo apt --reinstall install libglu1-mesa-dev liblzma-dev libunwind-dev libwayland-egl-backend-dev libxatracker-dev libxine2-bin libxine2-dev -y 
 
-$ sudo cp r300_pci_ids.h  /usr/include && sudo cp xlocale.h /usr/include
+$ sudo cp r300_pci_ids.h  /usr/include && sudo cp xlocale.h /usr/include && sudo cp XvMCproto.h /usr/include/X11/extensions && sudo rm -rf /usr/include/x86_64-linux-gnu/bits/mman-linux.h && sudo cp mman-linux.h /usr/include/x86_64-linux-gnu/bits && sudo rm /usr/include/libdrm/intel_aub.h &&  sudo cp intel_aub.h /usr/include/libdrm
 
 New command terminal: llvm-3.8
 
