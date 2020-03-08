@@ -3,9 +3,7 @@ mesa-13.0.4 , V3 , source_by , Griggorii_tutorial , patent , compilation , omx ,
                                       
                                           huge difficulty level!
 
-Source readme https://github.com/Griggorii/mesa-13.0.4_V2_source_by_Griggorii_tutorial_patent_compilation 
-
-Download folder tizonia deb package https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7
+Download tizonia folder deb package https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7
 
 sudo rm - rf /etc/X11/xorg.conf
 
