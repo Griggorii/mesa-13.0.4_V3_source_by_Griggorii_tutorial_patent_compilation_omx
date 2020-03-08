@@ -7,6 +7,15 @@ Source readme https://github.com/Griggorii/mesa-13.0.4_V2_source_by_Griggorii_tu
 
 Download my portage tool https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7
 
+mesa-13.0.4_V3 onli support clang-3.8 google find deb package
+clang-3.8_3.8.1-24ubuntu7_amd64.deb
+libclang1-3.8_3.8.1-24ubuntu7_amd64.deb
+libclang-common-3.8-dev_3.8.1-24ubuntu7_amd64.deb
+libffi6_3.2.1-9_amd64.deb
+libllvm3.8_3.8.1-24ubuntu7_amd64.deb
+llvm-3.8_3.8-2ubuntu1_amd64.deb
+llvm-3.8-runtime_3.8-2ubuntu1_amd64.deb
+
 -------------------------------------------------
 
 $ sudo apt update && sudo apt --reinstall install libomxil-bellagio-dev libwayland-egl-backend-dev libunwind-dev libegl1-mesa-dev mesa-common-dev libgles2-mesa-dev libosmesa6-dev libglu1-mesa-dev valgrind valgrind-dbg libxvmc-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxine2-dev libxatracker-dev -y && sudo apt libmesa-dev -y && sudo apt install libd3dadapter9-mesa-dev -y
