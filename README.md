@@ -1,7 +1,7 @@
 # mesa-13.0.4_V3_source_by_Griggorii_tutorial_patent_compilation_omx , gallium , nine , pipe , tty repair
-mesa-13.0.4 , V3 , source_by , Griggorii_tutorial , patent , compilation , omx , gallium , nine , pipe
+mesa-13.0.4 , V3 , source_by , Griggorii_tutorial , patent , compilation , omx , gallium , nine , pipe , tty repair
 
-# New version https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7
+New version https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7
                                       
                                           huge difficulty level!
 
